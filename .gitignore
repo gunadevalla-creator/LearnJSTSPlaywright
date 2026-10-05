@@ -1,0 +1,21 @@
+# Node & Playwright
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Maven & Java
+target/
+*.class
+.settings/
+.project
+.classpath
+
+# IDEs & System
+.idea/
+*.iml
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
