@@ -4,6 +4,7 @@ to create complex conditions. */
 
 // && -> AND Gate
 // || -> OR Gate
+// !  -> Not Gate
 
 let a = true;
 let b = false;

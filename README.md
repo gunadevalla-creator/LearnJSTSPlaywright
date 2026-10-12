@@ -22,7 +22,7 @@ Examples covering JavaScript literals, `null` and `undefined`, numeric literal f
 
 ### `04_Chapter_JS_Operators`
 
-Examples introducing operators and operands, assignment, arithmetic, comparisons (including loose and strict equality), and logical operations (`&&`, `||`, and `!`).
+Examples introducing operators and operands, assignment, arithmetic, string concatenation, comparisons (including loose and strict equality and type coercion), and logical operations (`&&`, `||`, and `!`). The chapter also includes comparison practice questions.
 
 ## Running the JavaScript examples
 
