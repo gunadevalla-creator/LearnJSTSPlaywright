@@ -1,6 +1,6 @@
 # Learn JavaScript, TypeScript, and Playwright
 
-This repository collects hands-on learning examples and QA engineering materials. It currently includes JavaScript fundamentals, prompt-engineering and test-planning references, and a sample Selenium/TestNG framework.
+This repository collects hands-on JavaScript learning examples and QA engineering materials. It includes prompt-engineering and test-planning references, plus a sample Java Selenium/TestNG framework.
 
 ## Repository contents
 
@@ -22,7 +22,7 @@ Examples covering JavaScript literals, `null` and `undefined`, numeric literal f
 
 ### `04_Chapter_JS_Operators`
 
-Reserved for JavaScript operator lessons.
+Examples introducing operators and operands, assignment, arithmetic, comparisons (including loose and strict equality), and logical operations (`&&`, `||`, and `!`).
 
 ## Running the JavaScript examples
 
@@ -30,6 +30,12 @@ Install [Node.js](https://nodejs.org/), then run an example from the repository 
 
 ```sh
 node 01_Chapter_JS_Basics/01_Helloworld.js
+```
+
+For example, to run the logical operators lesson:
+
+```sh
+node 04_Chapter_JS_Operators/23_logical_Op.js
 ```
 
 Each JavaScript file is a standalone learning example and can be run in the same way.
