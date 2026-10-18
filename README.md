@@ -24,6 +24,10 @@ Examples covering JavaScript literals, `null` and `undefined`, numeric literal f
 
 Examples introducing operators and operands, assignment, arithmetic, string concatenation, comparisons (including loose and strict equality and type coercion), and logical operations (`&&`, `||`, and `!`). Conditional and nested ternary examples demonstrate decision-making expressions, with additional comparison practice questions and `typeof` examples.
 
+### `05_Chapter_JS_Incre_Decr_Op`
+
+Examples covering pre- and post-increment and decrement, expressions that combine increment operators, and the nullish coalescing operator (`??`).
+
 ## Running the JavaScript examples
 
 Install [Node.js](https://nodejs.org/), then run an example from the repository root:
@@ -36,6 +40,12 @@ For example, to run the logical operators lesson:
 
 ```sh
 node 04_Chapter_JS_Operators/23_logical_Op.js
+```
+
+To run the nullish coalescing example:
+
+```sh
+node 05_Chapter_JS_Incre_Decr_Op/45_Nullish_Op.js
 ```
 
 Each JavaScript file is a standalone learning example and can be run in the same way.
