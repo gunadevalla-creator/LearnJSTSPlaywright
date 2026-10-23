@@ -28,6 +28,22 @@ Examples introducing operators and operands, assignment, arithmetic, string conc
 
 Examples covering pre- and post-increment and decrement, expressions that combine increment operators, and the nullish coalescing operator (`??`).
 
+### `06_Chapter_JS_if_else_Condition`
+
+Examples of `if`/`else` and nested conditions, multiple `if`/`else` branches, and the ternary conditional operator.
+
+### `07_Chapter_Switch`
+
+Examples using `switch` to handle status codes and grouped cases, along with switch-based exercises.
+
+### `08_Chapter_UserInput`
+
+Examples reading user input with `prompt-sync`, Node.js `readline`, and standard input using the `fs` module.
+
+### `09_Chapter_For_Loops`
+
+Starter chapter for examples on `for` loop iteration.
+
 ## Running the JavaScript examples
 
 Install [Node.js](https://nodejs.org/), then run an example from the repository root:
@@ -47,6 +63,22 @@ To run the nullish coalescing example:
 ```sh
 node 05_Chapter_JS_Incre_Decr_Op/45_Nullish_Op.js
 ```
+
+The user-input examples that use `prompt-sync` require installing the project dependencies first:
+
+```sh
+npm install
+```
+
+For example, run a switch lesson or read input from the terminal:
+
+```sh
+node 07_Chapter_Switch/50_Switch.js
+node 08_Chapter_UserInput/60_Node_UserInput.js
+node 08_Chapter_UserInput/62_FS_readFile.js
+```
+
+The input examples wait for terminal input; the standard-input example ends when the input stream is closed (Ctrl+D on macOS/Linux, or Ctrl+Z then Enter on Windows).
 
 Each JavaScript file is a standalone learning example and can be run in the same way.
 

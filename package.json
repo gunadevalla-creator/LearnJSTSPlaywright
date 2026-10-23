@@ -1,0 +1,23 @@
+{
+  "name": "guna",
+  "version": "1.0.0",
+  "description": "This repository collects hands-on JavaScript learning examples and QA engineering materials. It includes prompt-engineering and test-planning references, plus a sample Java Selenium/TestNG framework.",
+  "homepage": "https://github.com/gunadevalla-creator/LearnJSTSPlaywright#readme",
+  "bugs": {
+    "url": "https://github.com/gunadevalla-creator/LearnJSTSPlaywright/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunadevalla-creator/LearnJSTSPlaywright.git"
+  },
+  "license": "ISC",
+  "author": "GunaDevalla",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
