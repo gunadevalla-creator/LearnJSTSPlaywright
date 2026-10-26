@@ -40,9 +40,17 @@ Examples using `switch` to handle status codes and grouped cases, along with swi
 
 Examples reading user input with `prompt-sync`, Node.js `readline`, and standard input using the `fs` module.
 
-### `09_Chapter_For_Loops`
+### `09_Chapter_For_Loop`
 
-Starter chapter for examples on `for` loop iteration.
+Examples and practice questions covering `for` loop iteration.
+
+### `10_Chapter_While_Loop`
+
+Examples covering `while` loops, loop conditions, and `break`.
+
+### `11_Chapter_DoWhile_Loop`
+
+Examples covering `do...while` loops, comparisons with `while`, nested loops, and loop practice questions.
 
 ## Running the JavaScript examples
 
@@ -62,6 +70,14 @@ To run the nullish coalescing example:
 
 ```sh
 node 05_Chapter_JS_Incre_Decr_Op/45_Nullish_Op.js
+```
+
+Run a loop lesson from its chapter directory:
+
+```sh
+node 09_Chapter_For_Loop/64_for_loop.js
+node 10_Chapter_While_Loop/70_While.js
+node 11_Chapter_DoWhile_Loop/74_DoWhile.js
 ```
 
 The user-input examples that use `prompt-sync` require installing the project dependencies first:
