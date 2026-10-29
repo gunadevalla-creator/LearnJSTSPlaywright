@@ -52,6 +52,10 @@ Examples covering `while` loops, loop conditions, and `break`.
 
 Examples covering `do...while` loops, comparisons with `while`, nested loops, and loop practice questions.
 
+### `12_Chapter_Arrays`
+
+Examples covering array creation, access and modification, adding and removing elements, searching, finding, iteration, and transforming arrays with `map()` and `filter()`.
+
 ## Running the JavaScript examples
 
 Install [Node.js](https://nodejs.org/), then run an example from the repository root:
@@ -78,6 +82,12 @@ Run a loop lesson from its chapter directory:
 node 09_Chapter_For_Loop/64_for_loop.js
 node 10_Chapter_While_Loop/70_While.js
 node 11_Chapter_DoWhile_Loop/74_DoWhile.js
+```
+
+Run an array transformation example:
+
+```sh
+node 12_Chapter_Arrays/89_Array_Transforms.js
 ```
 
 The user-input examples that use `prompt-sync` require installing the project dependencies first:
